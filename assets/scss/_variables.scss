@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lemonada', cursive;
+    
+}
+$colores: (
+primario: rgb(140, 240, 165),
+secundario: rgb(0, 0, 0),
+fuenteC: rgb(255, 255, 255),
+
+);
+@mixin displayflex ($direccion,$align,$content,$justify,$wrap) {
+    flex-direction: $direccion;
+    align-items: $align;
+    align-content: $content;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+};
+
+.btnUno {
+    @extend .cardBtn;
+    background-color:  rgb(97, 98, 161);
+}
+.btnDos {
+    @extend .cardBtn;
+    background-color:  rgb(129, 66, 66);
+}.btnTres {
+    @extend .cardBtn;
+    background-color:  rgb(17, 68, 30);
+}.btnCuatro {
+    @extend .cardBtn;
+    background-color:  rgb(61, 9, 63);
+}
+

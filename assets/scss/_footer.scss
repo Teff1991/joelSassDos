@@ -1,0 +1,23 @@
+.footer {
+        width: 100%;
+    display: flex;
+    background-color: rgb(140, 240, 165);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    p{
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+    }
+    span{
+    font-size: 1rem;
+}
+}

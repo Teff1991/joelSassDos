@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lemonada", cursive;
+}
+
+.btnUno {
+  background-color: rgb(97, 98, 161);
+}
+
+.btnDos {
+  background-color: rgb(129, 66, 66);
+}
+
+.btnTres {
+  background-color: rgb(17, 68, 30);
+}
+
+.btnCuatro {
+  background-color: rgb(61, 9, 63);
+}
+
+.header {
+  background-color: rgb(140, 240, 165);
+}
+.header .bar {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.contenedor {
+  background-color: rgb(140, 240, 165);
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.main .tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+.main .tarjeta .tarjeta__titulo {
+  font-size: 2rem;
+  padding: 5px;
+  animation-name: tarjeta__titulo;
+  animation-duration: 5s;
+}
+.main .tarjeta .tarjeta_descripcion {
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.main .tarjeta .tarjeta__img {
+  width: 30%;
+  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  position: relative;
+}
+.main .tarjeta__btn {
+  background-color: rgba(255, 255, 255, 0.226);
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 5px;
+  border: none;
+  border-radius: 18px;
+}
+.main .tarjeta__btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 700;
+}
+
+@keyframes tarjeta__titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 576px) {
+  .tarjeta__titulo {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .tarjeta_descripcion {
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .tarjeta__img {
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    position: relative;
+  }
+  .tarjeta__btn {
+    background-color: rgba(255, 255, 255, 0.226);
+    position: relative;
+    bottom: 48px;
+    border: none;
+    border-radius: 18px;
+  }
+}
+.main {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.main .catalogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main .catalogo .card {
+  display: flex;
+  height: 450px;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.main .catalogo .card .cardTitulo {
+  display: flex;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.main .catalogo .card .cardImg {
+  width: 350px;
+  height: 320px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.main .catalogo .card .cardBtn, .main .catalogo .card .btnUno, .main .catalogo .card .btnDos, .main .catalogo .card .btnTres, .main .catalogo .card .btnCuatro {
+  color: rgb(255, 255, 255);
+  border: none;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 120px;
+  height: 37px;
+  border-radius: 8px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: rgb(140, 240, 165);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.footer p {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+.footer span {
+  font-size: 1rem;
+}
+
+.mainContacto {
+  background-color: rgb(0, 0, 0);
+  height: 84vh;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.mainContacto .mainNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.mainPf {
+  background-color: rgb(0, 0, 0);
+  height: 84vh;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.mainMedios {
+  background-color: rgb(0, 0, 0);
+  height: 84vh;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

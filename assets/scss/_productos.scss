@@ -1,0 +1,39 @@
+.main {
+    background-color: map-get($colores,secundario);
+    color: map-get($colores,fuenteC);
+    padding: 20px;
+
+    .catalogo {
+        display: flex;
+        @include displayflex (row,center,center,space-around,wrap);
+    
+        .card {
+        display: flex;
+        height: 450px;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;   
+        
+            .cardTitulo {
+            display:flex;
+            color: map-get($colores,fuenteC);
+            text-align: center;
+            }
+            .cardImg {
+            width: 350px;
+            height: 320px;
+            border-radius: 10px;
+            margin: 5px;
+            }
+            .cardBtn {
+            color: map-get($colores,fuenteC);
+            border: none;
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 120px;
+            height: 37px;
+            border-radius: 8px;
+            }
+        }
+    }
+}
