@@ -1,6 +1,7 @@
 .main {
     background-color: map-get($colores,secundario);
     color: map-get($colores,fuenteC);
+    height: 100%;
     padding: 20px;
 
     .catalogo {
@@ -17,7 +18,7 @@
         
             .cardTitulo {
             display:flex;
-            color: map-get($colores,fuenteC);
+            color: map-get($colores,fuente);
             text-align: center;
             padding-top: 8px;
             }

@@ -8,3 +8,13 @@
         @include displayflex (column,center,center,center,nowrap);
     }
 }
+@media (max-width:576px){
+    .mainMedios{
+        background-color: map-get($colores,secundario);
+        height: 89vh;
+        .formulario{
+            width: 55px;
+            height: 22px;
+        }
+    }
+}

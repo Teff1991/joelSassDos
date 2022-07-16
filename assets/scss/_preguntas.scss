@@ -4,3 +4,13 @@
     color: map-get($colores,fuenteC);
     padding: 20px;
 }
+
+@media (max-width:576px){
+    .mainPf{
+        height: 89vh;
+        .preguntas{
+            padding: 5px;
+            margin: 5px;
+        }
+    }
+}

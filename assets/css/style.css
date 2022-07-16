@@ -58,7 +58,7 @@
   text-align: center;
 }
 .main .tarjeta .tarjeta__img {
-  width: 30%;
+  width: 40%;
   box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.6);
   border-radius: 15px;
   position: relative;
@@ -92,24 +92,29 @@
   }
 }
 @media (max-width: 576px) {
-  .tarjeta__titulo {
+  .main {
+    height: 780px;
+  }
+  .main .tarjeta__titulo {
     font-size: 2.3rem;
     text-align: center;
   }
-  .tarjeta_descripcion {
+  .main .tarjeta_descripcion {
     font-size: 1.4rem;
     padding: 1rem;
     text-align: center;
   }
-  .tarjeta__img {
-    width: 100%;
+  .main .tarjeta__img {
+    width: 250px;
     margin: 20px;
     box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.6);
     border-radius: 15px;
     position: relative;
   }
-  .tarjeta__btn {
+  .main .tarjeta__btn {
     background-color: rgba(255, 255, 255, 0.226);
+    width: 195px;
+    height: 60px;
     position: relative;
     bottom: 48px;
     border: none;
@@ -119,6 +124,7 @@
 .main {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  height: 100%;
   padding: 20px;
 }
 .main .catalogo {
@@ -139,7 +145,6 @@
 }
 .main .catalogo .card .cardTitulo {
   display: flex;
-  color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 8px;
 }
@@ -212,6 +217,15 @@
   padding: 20px;
 }
 
+@media (max-width: 576px) {
+  .mainPf {
+    height: 89vh;
+  }
+  .mainPf .preguntas {
+    padding: 5px;
+    margin: 5px;
+  }
+}
 .mainMedios {
   background-color: rgb(0, 0, 0);
   height: 84vh;
@@ -225,4 +239,15 @@
   align-content: center;
   justify-content: center;
   flex-wrap: nowrap;
+}
+
+@media (max-width: 576px) {
+  .mainMedios {
+    background-color: rgb(0, 0, 0);
+    height: 89vh;
+  }
+  .mainMedios .formulario {
+    width: 55px;
+    height: 22px;
+  }
 }/*# sourceMappingURL=style.css.map */
