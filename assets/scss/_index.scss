@@ -2,7 +2,6 @@
     background-color: map-get($colores, primario);
 }
 .main{
-    grid-area: main;
     background-color: map-get($colores,secundario);
     color: map-get($colores,fuenteC);
     padding: 20px;
